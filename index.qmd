@@ -1,6 +1,6 @@
 ---
 title: "LLC个人合作项目报告"
-subtitle: "北美注册LLC最少且必要的知识及LLC作为留学生合法居留身份的一种手段"
+subtitle: "北美LLC注册最少且必要的知识及其作为留学生合法居留途径"
 author: 
   - name: "Troy Cheng"
     email: yc1317@georgetown.edu
@@ -31,10 +31,117 @@ engine: knitr
 ---
 
 
-注册公司是至少一个人 CPT/OPT是至少两个人；
-OPT extension是需要证明employer-employee的关系，不能自己监督自己，这个最好三人以上，形成董事会，投票可以把其中的成员开除；公司经过E-verify，同时最好给每个成员开工资，每人有minimum wage；
-H1B也是需要证明employer-employee的关系，并且要求有一个physical office，每人工资需要达到业务所在州的prevailing wage
+# 项目介绍
 
+本项目旨在为北美所有对技术有热情的人提供从零起步的技术学习与副业发展路径，以开源、多语言（英语、西班牙语、中文）的方式，为技术学习者提供清晰的**技术路线图（roadmap）**与实践机会，帮助他们在副业或事业上快速起步。
+
+## 当前提供的技术学习与副业方向
+
+1. 无人机飞手培训教程：指导完成 FAA Part 107 商用无人机执照考试，进入航拍、植保、测绘等市场。
+
+2. 量化交易机器人（Quantbot）项目开发：基于 Python + C++ 框架，实现对主流虚拟币交易的实时追踪与自动交易策略。
+
+3. 全栈开发学习教程：补全计算机科学本科阶段的核心知识，掌握前后端与网络基础。
+
+4. 漏洞挖掘与渗透测试：在靶场环境中训练漏洞发现技能，参与漏洞赏金项目。
+
+5. 开源网站与博客系统开发：学习基础前端、网络及浏览器原理，并参与开源建设。
+
+
+## 未来计划中的付费业务（待商讨）
+
+1. 一对一技术咨询（由内环+外围群内计算机专业本科、硕士、phd提供）
+
+2. 定制化云服务器出租（例如树莓派远程部署）
+
+3. 技术相关项目承包与任务分派
+
+
+# LLC注册方法与运维成本
+
+## 各州通用注册指南（第一年OPT）
+
+1. 租virtual office （网上搜ex. "california virtual office"）
+2. 租registered agent （网上搜ex. "california registered agent"）. 1point 3acres
+3. 注册LLC (https://bizfileonline.sos.ca.gov/)，填Articles of Organization - CA LLC (选mangaged by one manager)
+4. 等约1周，公司注册好之后，帮公司注册EIN (https://sa.www4.irs.gov/modiein/individual/index.jsp)
+5. 上移民局SEVP Portal，将OPT挂在公司名下 (https://sevp.ice.gov/opt/)
+6.（optional）OPT 期间maintain documentation 证明工作内容 & 工时
+
+## 详细注册流程指南
+
+参考：<https://www.1point3acres.com/bbs/thread-1072118-1-1.html>
+
+## FAQ
+
+**Q1. 要花多久?**
+
+A. 填表一天，过审一周（可以加急，一天过审、三天过审是不同的加急费用）。EIN网上填完表立刻可以拿到。
+
+**Q2. 要花多少钱?**
+
+A. 一年总共1000出头。加州填表70刀，加州税一年800刀（DC是两年一报，一次缴纳300刀）。
+
+virtual office（以网上随便搜到的举例）一个月19刀. 
+
+registered agent（以网上随便搜到的举例）一年49刀. 
+
+*公司起步也可以直接填个人居民住宅住址，省去virtual office和registered agent租用费用*
+
+**Q3. 可以unpaid吗?**
+
+A. 第一年OPT可以unpaid。
+
+
+**Q4. 有什么风险吗？**
+
+A.如果被check了，要证明工作内容和工时。
+
+freelance work风险最低，unpaid volunteer work风险次低，完全不干活时间全拿来刷题找工风险高一点，但是可以把刷题做project包装作training，记录好，作为proof。
+
+documentation多多益善，可以降低风险。
+
+## 时间线
+
+| 时间节点      | 任务                                | 关键输出文件/资质                |
+| --------- | --------------------------------- | ------------------------ |
+| Week 1-2  | 注册 LLC、申请 EIN、Operating Agreement | Articles、EIN Letter      |
+| Week 2-4  | 银行开户、域名、邮箱、官网                     | 银行账户、公司邮箱、网站             |
+| Week 4-8  | E-Verify、相关执照                     | Company ID、Permits       |
+| Month 2-6 | 项目合同、工资发放、信用建立                    | 合同、Pay Stub、信用卡          |
+| 每年        | Annual Report、报税                  | Annual Filing、Tax Return |
+
+
+# 身份合规要求
+
+1. CPT/OPT：至少需要两名成员，形成雇员与雇主关系
+
+2. OPT Extension：需证明有独立监督关系，最好三人以上，设立董事会，允许投票更换成员；公司需通过 E-verify，并向每位成员支付不少于当地最低工资
+
+3. H1B：需证明雇员-雇主关系，具备实体办公室，并支付不低于州 Prevailing Wage 的薪酬
+
+
+# 项目进展与招募
+
+公司名称：InfraForge LLC
+
+注册地：华盛顿特区（DC）
+
+申请状态：已提交注册申请，预计下周获批
+
+当前需求：寻找愿意在名义上加入的合作伙伴，满足 CPT/OPT 监管与雇员-雇主关系要求
+
+业务现状：开源板块开发中，网站 landing page 即将上线；即将购买公司域名与邮箱，可用于正式 offer letter 发放
+
+# 参考
+
+- <https://www.1point3acres.com/bbs/thread-1072118-1-1.html>
+
+- <https://blog.1point3acres.com/self-employment-for-opt-24-extension/>
+
+- GPT-5
+
+- Google
 
 
 
