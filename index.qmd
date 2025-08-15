@@ -10,7 +10,7 @@ title-block-banner: "#0a0e1a"
 title-block-banner-color: "#4DB8FF"
 execute:
   warning: false
-date: 2025-08-14
+date: 2025-08-12
 format:
   html:
     embed-resources: true
@@ -62,10 +62,10 @@ engine: knitr
 ## 各州通用注册指南（第一年OPT）
 
 1. 租virtual office （网上搜ex. "california virtual office"）
-2. 租registered agent （网上搜ex. "california registered agent"）. 1point 3acres
-3. 注册LLC (https://bizfileonline.sos.ca.gov/)，填Articles of Organization - CA LLC (选mangaged by one manager)
-4. 等约1周，公司注册好之后，帮公司注册EIN (https://sa.www4.irs.gov/modiein/individual/index.jsp)
-5. 上移民局SEVP Portal，将OPT挂在公司名下 (https://sevp.ice.gov/opt/)
+2. 租registered agent （网上搜ex. "california registered agent"）. 
+3. 注册LLC (<https://bizfileonline.sos.ca.gov/>)，填Articles of Organization - CA LLC (选mangaged by one manager)
+4. 等约1周，公司注册好之后，帮公司注册EIN (<https://sa.www4.irs.gov/modiein/individual/index.jsp>)
+5. 上移民局SEVP Portal，将OPT挂在公司名下 (<https://sevp.ice.gov/opt/>)
 6. （optional）OPT 期间maintain documentation 证明工作内容 & 工时
 
 ## 详细注册流程指南
